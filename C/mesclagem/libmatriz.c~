@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <string.h>
+
+void criar_m (char **matriz)  {
+
+	int linhas,colunas,i;
+
+	printf("Digite o numero de linhas e colunas (respectivamente):");
+	scanf("%d, %d", &linhas, &colunas);
+	
+	matriz= calloc (linhas, sizeof(char *));
+	for (i=0;i<linhas;i++)
+		matriz[i]= calloc (colunas, sizeof(char));
+
+};
+
+void redimensionar_m (char **matriz) {
+
+	int acrescimo_l, acrescimo_c;
+	int linhas, colunas;
+
+	printf("Quantas linhas e colunas a matriz terá?");
+	scanf("%d %d", %nova_l, %nova_c);
+
+	matriz=realloc(matriz, (nova_l)*sizeof(char*));
+	for (i=0; i<nova_l; i++)
+		matriz=realloc(matriz, (nova_c)*sizeof(char));
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+	
+

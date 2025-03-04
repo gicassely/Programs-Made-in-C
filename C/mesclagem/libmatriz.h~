@@ -1,0 +1,2 @@
+void criar_m (char **);
+void redimensionar_m (char **);

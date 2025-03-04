@@ -1,0 +1,35 @@
+#########################################################
+#	CI056 - Algorítmos e Estrutura de Dados II	#
+#							#
+#	Trabalho - Gerenciado de Pronto Socorro		#
+#	Desenvolvido por:				#
+#		-Alice Marade Freitas			#
+#		-Gissely de Souza			#
+#		-Nikolas Leal				#
+#	Professor: 					#
+#	Data prevista para entrega:	13/12/2013	#
+#########################################################
+
+->	FUNÇÃO DO PROGRAMA
+		-Este programa é capaz de criar uma lista de espera para pronto socorro,
+		 permitindo inserção de novos pacientes, bem como a remoção (atendimento)
+		 de um paciente da lista.
+		-Os dados dos pacientes ficam armazenados em ordem de periculosidade.
+		-Ao atender um paciente, o médico poderá optar por atender o primeiro da
+		 lista (com maior risco de vida), o que tenha sido indicado pela pessoa
+		 mais influente, ou por que tenha sido indicado por uma pessoa específica.
+
+->	ESTRUTURAS UTILIZADAS:
+		-Neste programa, foi utilizada uma lista dinâmica.
+		-A primeira célula da lista é a célula cabeça, e estará sempre vazia para
+		 facilitar algumas operações.
+		-Cada uma das outras células contém um paciente e um apontador para a
+		 próxima célula.
+		-Cada paciente contém um nome, uma doença, um grau de periculosidade e um
+		 valor de indicação.
+	
+->	INFORMAÇÕES IMPORTANTES:
+		-A lista de espera não é salva em arquivo. Ao encerrar o programa, todos os
+		 dados são perdidos.
+		-Uma opção de ajuda foi acrescentada ao menu. Ela contém as informações
+		 básicas para a utilização do programa.

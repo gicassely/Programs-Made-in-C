@@ -1,0 +1,28 @@
+Trabalho 3:
+
+=>	Fazer uma lista na qual cada elemento é uma struct
+	com os dados dos pacientes de um pronto socorro.	
+	->Nome
+	->Doença
+	->Grau de Periculosidade
+	->Q.I (Quem indicou)
+
+=>	Cada paciente que chega, é digitada a ficha dele.
+	->O sistema deve permitir a entrada de dados.
+
+=>	Quando um médico está liberado, ele consulta o
+	sistema para pegar um novo paciente.
+
+=>	O médico pode escolher entre pegar o paciente com:
+	->Maior grau de periculosidade
+	->Maior Q.I.
+	->Um Q.I específico
+
+=>	Os dados dos pacientes deve ficar armazenados em
+	ordem de periculosidade.
+
+=>	O sistema ainda deve permitir a listagem dos pacientes
+	por grau de periculosidade ou em ordem alfabética.
+
+=>	Quando o médico atender um paciente, ele deve ser
+	removido da lista de espera.
